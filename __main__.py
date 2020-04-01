@@ -38,7 +38,6 @@ def search_for_uri(track):
 	item = items.pop()
 	print(track)
 	return item['uri']
-	
 
 if __name__ == "__main__":
 	playlists = Spotify.client.user_playlists(Spotify.username)['items']
