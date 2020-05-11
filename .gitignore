@@ -3,3 +3,5 @@
 __pycache__
 .spotify
 .cache*
+.envrc
+.direnv
